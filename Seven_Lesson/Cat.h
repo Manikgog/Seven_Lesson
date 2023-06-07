@@ -1,5 +1,6 @@
 #pragma once
 #include "Animal.h"
+#include <string>
 
 class Cat : public Animal
 {
@@ -14,8 +15,7 @@ public:
 
     std::string GetBreed() override;
 
-    void SetAmount();
+    void SetAmount() override;
 
 };
 
-int Cat::catCount = 0;

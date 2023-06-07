@@ -1,5 +1,5 @@
-#include "Cat.h"
 #include "Animal.h"
+#include "Cat.h"
 
 Cat::Cat() : Animal(), _breed("") {}
 Cat::Cat(std::string name, int price, std::string breed) : Animal(name, price), _breed(breed) 

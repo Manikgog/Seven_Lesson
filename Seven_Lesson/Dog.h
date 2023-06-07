@@ -1,5 +1,7 @@
-#pragma once
+#ifndef _DOG_H_
+#define _DOG_H_
 #include "Animal.h"
+#include <string>
 
 class Dog : public Animal
 {
@@ -18,4 +20,6 @@ public:
 
 };
 
-int Dog::dogCount = 0;
+
+
+#endif

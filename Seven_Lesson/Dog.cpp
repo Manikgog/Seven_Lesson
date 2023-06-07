@@ -1,6 +1,5 @@
 #include "Dog.h"
-#include "Animal.h"
-#include <string>
+
 
 Dog::Dog() : Animal(), _breed("") {}
 Dog::Dog(std::string name, int price, std::string breed) : Animal(name, price), _breed(breed) 

@@ -9,6 +9,8 @@
 #include "Dog.h"
 #include "Cat.h"
 
+int Dog::dogCount = 0;
+int Cat::catCount = 0;
 
 
 int main()
